@@ -4,17 +4,15 @@ function renderLicenseBadge(license) {
   if (license === "None") {
     return "";
   } 
-    else if {
-    if (license === 'Apache 2.0') {
+    else if (license === 'Apache 2.0') {
       return `https://www.apache.org/licenses/LICENSE-2.0`;
     }
     else if (license === 'GNU General Public') {
       return `https://www.gnu.org/licenses/gpl-3.0.en.html`;
 
-  } else (license == 'MIT') {
+  } else (license == 'MIT') 
     return `https://opensource.org/licenses/MIT`;
   }
-}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -28,11 +26,10 @@ function renderLicenseLink(license) {
   } else if (license === 'GNU General Public') {
     return `https://www.gnu.org/licenses/gpl-3.0.en.html`;
 
-} else (license == 'MIT') {
+  } else if (license == 'MIT') {
   return `https://opensource.org/licenses/MIT`;
-}
-
-}
+  }
+ }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -41,6 +38,7 @@ function renderLicenseSection(license) {
     return  license + ` is the license used for this project.`
   } else {
     return ''
+}
 }
 
 // TODO: Create a function to generate markdown for README
@@ -77,8 +75,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-${renderGithubLink(data.username)}.
-${data.contact}
+* [My GithHub Link](https://github.com/${data.user})
 * ${data.email}
 
 `;

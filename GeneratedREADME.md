@@ -1,9 +1,9 @@
-# asjd
+# README-generator
 
 https://opensource.org/licenses/MIT
 
 ## Description
-sdf
+It is a README generator
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,20 +16,20 @@ sdf
 npm i
 
 ## Usage
-test
+Test
 
 ## License
 ## https://opensource.org/licenses/MIT
-Apache is the license used for this project.
-* undefined
+MIT is the license used for this project.
+* https://opensource.org/licenses/MIT
 
 ## Contributing
-email
+Via email
 
 ## Tests
 npm run test
 
 ## Questions
 * [My GithHub Link](https://github.com/undefined)
-* efj
+* katedonahue41@email.com
 

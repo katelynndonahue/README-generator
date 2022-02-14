@@ -3,7 +3,7 @@
 https://opensource.org/licenses/MIT
 
 ## Description
-sdf
+As a developer I want a README generator so that I can quickly create a professional README for a new project.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -31,5 +31,4 @@ npm run test
 
 ## Questions
 * [My GithHub Link](https://github.com/undefined)
-* efj
 
